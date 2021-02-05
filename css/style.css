@@ -1,0 +1,447 @@
+
+@font-face {
+    font-family: 'Larsseit';
+    src: local('Larsseit Thin'), local('Larsseit-Thin'),
+        url('../fonts/Larsseit-Thin.woff2') format('woff2'),
+        url('../fonts/Larsseit-Thin.woff') format('woff'),
+        url('../fonts/Larsseit-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+		font-family: 'Larsseit';
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+header.header{
+	height: 100px;
+	width: 100%;
+	background-color: #F4F9E2;
+	padding-top: 25px;
+	padding-left: 175px;
+}
+div.menu{
+	
+	width: 233px;
+	margin-left: 35%;
+	word-spacing: 25px;
+	
+
+	
+}
+div.menu>a{
+	color: black;
+	font-size: 14px;
+	line-height: 20px;
+	border-bottom:2px solid black;
+	
+
+}
+header>span{
+	color: #62D0DF;
+	font-size: 24px;
+	margin-top: -20px;
+	display: block;
+}
+div.click{
+	width: 150px;
+	height: 50px;
+	background-color: #62D0DF;
+	border-radius: 50px;
+	display: block;
+	margin-left: 1000px;
+	margin-top: -30px;
+	text-align: center;
+	padding: 18px;
+	color: #fff;
+	Box-shadow: inset  4px 2px 4px 1px red;
+	
+}
+div.one{
+	
+	height: 750px;
+	width: 100%;
+	background-color: #F4F9E2;
+	padding-top: 180px;
+	padding-left: 175px;
+}
+h1{color: #62D0DF;
+	font-size: 24px;
+	line-height: 50px;
+}
+p.hel{
+	color: #22356F;
+	font-size: 48px;
+
+
+
+}
+div.hel{
+	width: 484px;
+	height: 167px;
+	
+}
+div.text{
+	width: 469px;
+	height: 161px;
+	font-size: 24px;
+	color: #22356F;
+line-height: 42px;
+
+}
+a.clic{
+	width: 150px;
+	height: 50px;
+	background-color:#F9B640;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	padding-top: 17px;
+	display: block;
+	margin-top: 75px;
+}
+a.cl{
+	width: 150px;
+	height: 50px;
+	color:#F9B640;
+
+	
+	font-size: 16px;
+	padding-top: 17px;
+	display: block;
+	margin-top: -50px;
+	margin-left: 188px;
+}
+
+div.two{
+	height: 605px;
+width: 100%;
+background-color:  #62D0DF;
+padding: 150px 0px 0px 180px;
+
+
+}
+h2{
+	color: #fff;
+	font-size: 36px;
+}
+div.w{
+	margin-top: 75px;
+	color: #fff;
+	font-size: 24px;
+	width: 555px;
+	height: 235px;
+	line-height: 35px;
+}
+img.a{
+	margin-left: auto;
+	display: block;
+	margin-top: -496px;
+}
+div.three{
+	height: 480px;
+	width: 100%;
+	padding: 150px 0px 0px 100px;
+}
+div.three>span{
+	color:  #22356F;
+	font-size: 16px;
+	
+}
+div.spa{width: 100px;
+display: block;
+float: left;
+
+}
+div.txt{
+	width: 592px;
+	display: inline-block;
+	margin-left: 225px;
+	line-height: 33px;
+	color: #22356F;
+
+;
+	font-size: 24px;
+
+}
+p.p{
+	display: block;
+	margin-top: 100px;
+	text-align: center;
+	color: rgba(34, 53, 111, 0.5);
+	font-size: 16px;
+}
+div.for{
+	height: 500px;
+	width: 100%;
+
+}
+div.for>div{
+	width: 360px;
+	height: 360px;
+	
+	display: inline-block;
+	
+	margin-left: -3px; 
+	padding: 72px 52px 0px 52px;
+	
+}
+div.r{
+	
+	background-color: #FFE2DE;
+}
+div.g{
+	background-color: #C4E769;
+	visibility: hidden;
+
+
+}
+div.b{
+	background-color: #62D0DF;
+			Box-shadow: 3px 8px 5px 8px blue;
+	
+}
+div.bb{
+	background-color: #0052C1;
+
+	
+}
+div.z>span{
+	width: 100%;
+	display: block;
+	border-top: 2px solid #ffffff;
+	padding-top: 23px;
+	text-align: center;
+	font-size: 32px;
+	color:#fff;
+}
+
+div.forr>div{
+	width: 480px;
+	height: 480px;
+	
+	display: inline-block;
+	
+	margin-left: -3px; 
+	padding: 72px 52px 0px 52px;
+border-radius: 50%;
+}
+
+div.t>span{
+	width: 100%;
+	display: block;
+	border-top: 2px dashed #ffffff;
+	padding-top: 23px;
+	
+	font-size: 32px;
+	color:#fff;
+	border-radius: 50%;
+}
+.ph{
+	background-color: #22356F;
+	outline: 3px dashed red ;
+}
+.me{
+	background-color:#0052C1;
+	
+}
+.gy{
+	background-color: #62D0DF;
+}
+.cr{
+	background-color: #DEE1FF;
+	opacity: 0.1 ;
+}
+.ae{
+	background-color: #8F00FF;;
+}
+.nu{
+	background-color: firebrick;
+	Box-shadow: inset  3px 1px 1px 1px red;
+}
+div.t>p{
+	font-size: 30px;
+	
+}
+
+div.cc{
+	width: 480px;
+	height: 240px;
+	padding: 55px 77px 0px 105px;
+
+	display: inline-block;
+	margin-left: -3px;
+
+
+}
+
+div.cc>span{
+	font-size: 28px;
+	line-height: 100px;
+	color: #22356F;
+
+;
+}
+div.cc>p{
+	color: rgba(34, 53, 111, 0.5);
+	font-size: 16px;
+}
+
+
+.o{
+	margin: 105px;
+	display: inline-block;
+}
+p.ppp{
+
+width: 675px;
+height: 215px;
+margin-top: -450px;
+margin-left: 600px;
+font-size: 36px;
+color: #22356F;
+line-height: 53px;
+}
+.as{
+	color: #FAB63E;
+	margin-top: 200px;
+	margin-left:  600px;
+	display: block;
+}
+.five{
+
+height: 790px;
+width: 67%;
+background-color: #22356F;
+margin-top: 22px;
+padding-left: 180px;
+display: inline-block;
+
+}
+.rt{
+	
+	display: inline-block;
+	width: 33%;
+	margin-top: 22px;
+	
+}
+div.five>span{
+	margin-top: 100px;
+	display: inline-block;
+	color: #fff;
+	
+}
+h6{
+	display: block;
+	margin-top: 200px;
+	font-size: 64px;
+	color: #fff;
+	
+}
+div.five>p{
+	width: 579px;
+	height: 245px;
+	margin-top: 75px;
+	font-size: 36px;
+	line-height: 52px;
+	color: #fff;
+}
+div.five>a{
+	color: rgba(98, 208, 223, 1);
+
+
+}
+div.some{
+	display: block;
+	
+	width: 223px;
+	height: 160px;
+	
+	border-right: 2px solid black;
+
+}
+.dddd{
+	display: inline-block;
+	padding-top: 100px;
+}
+div.som{
+	margin-left: 70px;
+}
+.so{
+margin-top: -160px;
+margin-left: 330px;
+}
+.soo{
+margin-top: -160px;
+margin-left: 590px;
+color: rgba(34, 53, 111, 0.5);
+
+;
+}
+div.some>span{
+	color:rgba(34, 53, 111, 1);
+	line-height: 40px;
+
+
+}
+div.some>p{
+	line-height: 22px;
+	color: rgba(34, 53, 111, 0.5);
+
+;
+}
+.ul{
+	line-height: 22px;
+	color: rgba(34, 53, 111, 0.5);
+
+;
+}
+.privet{
+	display: block;
+	opacity: 0;
+}
+li>a{
+	color: blue;
+}
+footer{
+	height: 80px;
+	width: 100%;
+	background-color: #62D0DF;
+	padding: 32px 0px 0px 194px;
+	color: #fff;
+}
